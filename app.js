@@ -1,10 +1,7 @@
-const toBuy = ["potato", "tomato", "pizza"];
-console.log(toBuy[2]);
+const age = 96;
+function calculateKrAge(ageOfForeigner) {
+    return ageOfForeigner + 2;
+}
 
-toBuy.push("one");
-
-console.log(toBuy)
-
-toBuy.push("two", "three");
-
-console.log(toBuy);
+const krAge = calculateKrAge(age);
+console.log(krAge);
