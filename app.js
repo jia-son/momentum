@@ -1,7 +1,3 @@
-const age = 96;
-function calculateKrAge(ageOfForeigner) {
-    return ageOfForeigner + 2; //리턴값이 주어져야 값이 적용됨
-}
+const age = parseInt(prompt("How old are you?"));
 
-const krAge = calculateKrAge(age);
-console.log(krAge);
+console.log(age);
