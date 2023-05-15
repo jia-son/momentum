@@ -3,9 +3,10 @@ const loginInput = loginForm.querySelector("input");
 const loginButton = loginForm.querySelector("button");
 
 
-function onLoginBtnClcik() {
-    const username = loginInput.value;
-    console.log(username);
+function onLoginSumbit(event) {
+    event.preventDefault();
+    // const username = loginInput.value;
+    console.log(loginInput.value);
 }
 
-loginButton.addEventListener("click", onLoginBtnClcik);
+loginForm.addEventListener("submit", onLoginSumbit);
